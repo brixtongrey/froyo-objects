@@ -6,3 +6,12 @@ const colors = ["vanilla", "vanilla", "vanilla", "strawberry", "coffee", "coffee
 
 
 
+
+
+
+// how to create prompt message from Stats workshop
+const userInputString = prompt(
+  "Please submit your froyo flavor.",
+  "vanilla, strawberry, coffee"
+);
+
