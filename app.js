@@ -1,7 +1,7 @@
 
 // how to create prompt message referred back to Stats workshop
 const userInputString = prompt(
-  "Please submit your froyo flavor.",
+  "Please submit your froyo flavors:",
   "vanilla, strawberry, coffee"
 );
 
@@ -46,4 +46,7 @@ const result = countFlavors (flavorsArray);
 
 // output the result in the console:
 console.log("Froyo flavor counts:", result);
+
+// view output via console.table
+console.table(result);
 
