@@ -27,9 +27,9 @@ function countFlavors(flavors) {
 const frequencyCounter = {};
 for (let i = 0; i < flavors.length; i++) {
   const flavor = flavors[i];
-  console.log("flavor", flavor);
+//   console.log("flavor", flavor);
 
-  console.log(frequencyCounter);
+//   console.log(frequencyCounter);
 
   if (flavor in frequencyCounter) {
     frequencyCounter[flavor] += 1;
