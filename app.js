@@ -24,8 +24,10 @@ for (let i = 0; i < flavors.length; i++) {
     frequencyCounter[flavor] = 1;
   }
 }
+// looping through an array ^
 
 console.log("flavor", frequencyCounter);
+
 
 // how to create prompt message from Stats workshop
 const userInputString = prompt(
